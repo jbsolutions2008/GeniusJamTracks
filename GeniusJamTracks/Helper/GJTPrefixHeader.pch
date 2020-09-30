@@ -1,0 +1,33 @@
+//
+//  GJTPrefixHeader.pch
+//  GeniusJamTracks
+//
+//  23/04/20.
+//  Copyright © 2020 JB Solutions. All rights reserved.
+//
+
+
+#ifndef GJTPrefixHeader_pch
+#define GJTPrefixHeader_pch
+
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* GJTPrefixHeader_pch */
+
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#endif
+#define appDelegate ((AppDelegate *)[[UIApplication sharedApplication] delegate])
+///****For detecting different devices*******/
+
+#define Primary_Color ([UIColor colorWithRed:235.0/255.0 green:135.0/255.0 blue:15.0/255.0 alpha:1.0])
+#define Secondary_Color ([UIColor whiteColor])
+#define MainBg_Color ([UIColor colorWithRed:36.0/255.0 green:40.0/255.0 blue:41.0/255.0 alpha:1.0])
+#define IDIOM    UI_USER_INTERFACE_IDIOM()
+#define IPAD     UIUserInterfaceIdiomPad
+
+

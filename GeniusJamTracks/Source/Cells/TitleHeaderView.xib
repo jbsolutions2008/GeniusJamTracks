@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TitleHeaderView"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="TitleHeaderView">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O4o-Jn-rTb">
+                    <rect key="frame" x="8" y="52" width="398" height="802"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="19"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8r8-2V-dFI">
+                    <rect key="frame" x="15" y="894.5" width="399" height="0.5"/>
+                    <color key="backgroundColor" red="0.17999999999999999" green="0.20999999999999999" blue="0.20999999999999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="0.5" id="5rE-Ra-2PQ"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="8r8-2V-dFI" secondAttribute="bottom" constant="1" id="5ea-pO-ZR2"/>
+                <constraint firstItem="O4o-Jn-rTb" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="8" id="HV3-PT-wPM"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="O4o-Jn-rTb" secondAttribute="trailing" constant="8" id="SHQ-5X-5br"/>
+                <constraint firstItem="O4o-Jn-rTb" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="8" id="eLG-2Q-w3i"/>
+                <constraint firstAttribute="trailing" secondItem="8r8-2V-dFI" secondAttribute="trailing" id="ebf-uK-vA1"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="O4o-Jn-rTb" secondAttribute="bottom" constant="8" id="k5c-ma-D46"/>
+                <constraint firstItem="8r8-2V-dFI" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="15" id="l3Q-jb-W8S"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="lblLine" destination="8r8-2V-dFI" id="I59-J7-ft0"/>
+                <outlet property="lblName" destination="O4o-Jn-rTb" id="Mmg-yP-Hcf"/>
+            </connections>
+            <point key="canvasLocation" x="139" y="129"/>
+        </view>
+    </objects>
+</document>

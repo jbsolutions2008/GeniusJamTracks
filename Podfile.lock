@@ -1,0 +1,20 @@
+PODS:
+  - IQKeyboardManager (6.5.5)
+  - VerticalSlider (2.0.0)
+
+DEPENDENCIES:
+  - IQKeyboardManager
+  - VerticalSlider
+
+SPEC REPOS:
+  trunk:
+    - IQKeyboardManager
+    - VerticalSlider
+
+SPEC CHECKSUMS:
+  IQKeyboardManager: 3a8b9e603f8b0eeaf5f096a1f2b2cfcf121992ef
+  VerticalSlider: 655f2bc3ed062bac13e21c174f5ff93b8308571d
+
+PODFILE CHECKSUM: d5057db33a6058f0153ac45d9f433302313226f9
+
+COCOAPODS: 1.9.1

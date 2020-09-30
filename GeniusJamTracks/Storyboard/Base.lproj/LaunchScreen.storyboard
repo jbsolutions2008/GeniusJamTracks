@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="3fi-pN-q2z">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ZZW-2P-d9v">
+            <objects>
+                <viewController id="3fi-pN-q2z" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="NWM-8B-8Ti">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VDx-9U-tsI">
+                                <rect key="frame" x="0.0" y="259" width="414" height="378"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RRF-kv-MYm">
+                                        <rect key="frame" x="73.5" y="0.0" width="267" height="267"/>
+                                        <color key="backgroundColor" red="0.92156862750000001" green="0.52941176469999995" blue="0.058823529409999999" alpha="1" colorSpace="calibratedRGB"/>
+                                    </view>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="mGB-cp-PIr">
+                                        <rect key="frame" x="103.5" y="30" width="207" height="207"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="mGB-cp-PIr" secondAttribute="height" multiplier="1:1" id="GHz-Ir-ttA"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="appName" translatesAutoresizingMaskIntoConstraints="NO" id="z7g-Bv-QQ8">
+                                        <rect key="frame" x="73.5" y="287" width="267" height="91"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="z7g-Bv-QQ8" firstAttribute="trailing" secondItem="RRF-kv-MYm" secondAttribute="trailing" id="4pf-W7-R2m"/>
+                                    <constraint firstItem="RRF-kv-MYm" firstAttribute="leading" secondItem="mGB-cp-PIr" secondAttribute="leading" constant="-30" id="58P-4Z-kDd"/>
+                                    <constraint firstAttribute="bottom" secondItem="z7g-Bv-QQ8" secondAttribute="bottom" id="DD6-eR-AB9"/>
+                                    <constraint firstItem="RRF-kv-MYm" firstAttribute="top" secondItem="mGB-cp-PIr" secondAttribute="top" constant="-30" id="SAM-gN-kgv"/>
+                                    <constraint firstItem="mGB-cp-PIr" firstAttribute="width" secondItem="VDx-9U-tsI" secondAttribute="width" multiplier="0.5" id="Su0-P2-s4z"/>
+                                    <constraint firstItem="RRF-kv-MYm" firstAttribute="bottom" secondItem="mGB-cp-PIr" secondAttribute="bottom" constant="30" id="Wg6-YB-YcH"/>
+                                    <constraint firstItem="z7g-Bv-QQ8" firstAttribute="leading" secondItem="RRF-kv-MYm" secondAttribute="leading" id="ZAF-GE-vZU"/>
+                                    <constraint firstItem="RRF-kv-MYm" firstAttribute="trailing" secondItem="mGB-cp-PIr" secondAttribute="trailing" constant="30" id="Zvs-1r-n6c"/>
+                                    <constraint firstItem="RRF-kv-MYm" firstAttribute="top" secondItem="VDx-9U-tsI" secondAttribute="top" id="kfX-jM-BiB"/>
+                                    <constraint firstItem="z7g-Bv-QQ8" firstAttribute="top" secondItem="RRF-kv-MYm" secondAttribute="bottom" constant="20" id="rnK-5Z-S6A"/>
+                                    <constraint firstItem="mGB-cp-PIr" firstAttribute="centerX" secondItem="VDx-9U-tsI" secondAttribute="centerX" id="tvh-96-gYJ"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.92156862750000001" green="0.52941176469999995" blue="0.058823529409999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="VDx-9U-tsI" firstAttribute="centerY" secondItem="NWM-8B-8Ti" secondAttribute="centerY" id="Lbb-DZ-vb6"/>
+                            <constraint firstItem="WwZ-ij-biC" firstAttribute="trailing" secondItem="VDx-9U-tsI" secondAttribute="trailing" id="ONh-zu-KNw"/>
+                            <constraint firstItem="VDx-9U-tsI" firstAttribute="leading" secondItem="WwZ-ij-biC" secondAttribute="leading" id="zQd-g3-8vo"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="WwZ-ij-biC"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="SgA-bc-jeO"/>
+                    <connections>
+                        <outlet property="vwShadow" destination="RRF-kv-MYm" id="yBR-93-rkt"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Z0i-4h-zbX" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="139" y="89"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Logo" width="232" height="232"/>
+        <image name="appName" width="259" height="91"/>
+    </resources>
+</document>

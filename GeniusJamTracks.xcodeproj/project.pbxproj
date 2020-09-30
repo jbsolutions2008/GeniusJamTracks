@@ -1,0 +1,680 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		462D1BB22452E09A004CB3D1 /* AppTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 462D1BB12452E09A004CB3D1 /* AppTabbarController.m */; };
+		462D1BB62452F3E2004CB3D1 /* LibraryVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 462D1BB52452F3E2004CB3D1 /* LibraryVC.m */; };
+		462D1BB92452F416004CB3D1 /* HowToVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 462D1BB82452F416004CB3D1 /* HowToVC.m */; };
+		462D1BBC2452F438004CB3D1 /* ForumsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 462D1BBB2452F438004CB3D1 /* ForumsVC.m */; };
+		462D1BBF2452F7AA004CB3D1 /* SettingsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 462D1BBE2452F7AA004CB3D1 /* SettingsVC.m */; };
+		463DB6DB2475A40B00C80BC5 /* AutoRotate.m in Sources */ = {isa = PBXBuildFile; fileRef = 463DB6DA2475A40B00C80BC5 /* AutoRotate.m */; };
+		464BEAF82469C58400380D41 /* CreateSongVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 464BEAF72469C58400380D41 /* CreateSongVC.m */; };
+		464D72BB246BDAA900E34F64 /* CraeteSongTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 464D72BA246BDAA900E34F64 /* CraeteSongTableCell.m */; };
+		4650FE192464446C00CC301E /* MySongs.json in Resources */ = {isa = PBXBuildFile; fileRef = 4650FE172464446C00CC301E /* MySongs.json */; };
+		4650FE1A2464446C00CC301E /* Library.json in Resources */ = {isa = PBXBuildFile; fileRef = 4650FE182464446C00CC301E /* Library.json */; };
+		4652D25D24BF1AA4005B1E04 /* SyncScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4652D25C24BF1AA4005B1E04 /* SyncScrollView.m */; };
+		4657F8562458822100DAF76B /* TitleHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4657F8552458822100DAF76B /* TitleHeaderView.m */; };
+		4657F8582458823600DAF76B /* TitleHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4657F8572458823600DAF76B /* TitleHeaderView.xib */; };
+		465C69572472A5EE007F5915 /* CustomVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 465C69562472A5EE007F5915 /* CustomVC.m */; };
+		465D37A8246E5DDD00BAFD31 /* Constant.m in Sources */ = {isa = PBXBuildFile; fileRef = 465D37A7246E5DDD00BAFD31 /* Constant.m */; };
+		465D37AF246ECDEE00BAFD31 /* YIInnerShadowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 465D37AA246ECDEE00BAFD31 /* YIInnerShadowView.m */; };
+		465D37B0246ECDEE00BAFD31 /* YIInnerShadowLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 465D37AC246ECDEE00BAFD31 /* YIInnerShadowLayer.m */; };
+		4660C47B2490D1EC00847AD9 /* UITextView+AMXFontScale.m in Sources */ = {isa = PBXBuildFile; fileRef = 4660C4712490D1EC00847AD9 /* UITextView+AMXFontScale.m */; };
+		4660C47C2490D1EC00847AD9 /* NSObject+AMXFontScale.m in Sources */ = {isa = PBXBuildFile; fileRef = 4660C4722490D1EC00847AD9 /* NSObject+AMXFontScale.m */; };
+		4660C47D2490D1EC00847AD9 /* UILabel+AMXFontScale.m in Sources */ = {isa = PBXBuildFile; fileRef = 4660C4732490D1EC00847AD9 /* UILabel+AMXFontScale.m */; };
+		4660C47E2490D1EC00847AD9 /* FontUpdateBlockWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4660C4752490D1EC00847AD9 /* FontUpdateBlockWrapper.m */; };
+		4660C47F2490D1EC00847AD9 /* UIFont+AMXFontScale.m in Sources */ = {isa = PBXBuildFile; fileRef = 4660C4782490D1EC00847AD9 /* UIFont+AMXFontScale.m */; };
+		4660FF2F248FAF7C009946FF /* Antonis.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4660FF2E248FAF7C009946FF /* Antonis.otf */; };
+		4665FF6C24505FDC00EF054E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4665FF6B24505FDC00EF054E /* AppDelegate.m */; };
+		4665FF7524505FDC00EF054E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4665FF7324505FDC00EF054E /* Main.storyboard */; };
+		4665FF7724505FE100EF054E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4665FF7624505FE100EF054E /* Assets.xcassets */; };
+		4665FF7A24505FE100EF054E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4665FF7824505FE100EF054E /* LaunchScreen.storyboard */; };
+		4665FF7D24505FE100EF054E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4665FF7C24505FE100EF054E /* main.m */; };
+		466954162477B5D5005503F1 /* ChordCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 466954152477B5D5005503F1 /* ChordCollectionCell.m */; };
+		466CE7CC245984C0004554F4 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 466CE7CB245984C0004554F4 /* WebKit.framework */; };
+		467DF5DC2459BBF3004570B1 /* SettingsTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 467DF5DB2459BBF3004570B1 /* SettingsTableCell.m */; };
+		46939314246C6DB400DBE191 /* SongChordsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 46939313246C6DB400DBE191 /* SongChordsVC.m */; };
+		469886742461A28600B691A7 /* InstrumentTransposeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 469886732461A28600B691A7 /* InstrumentTransposeVC.m */; };
+		46BF142D2451B9BF004F0865 /* LaunchScreenVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 46BF142C2451B9BF004F0865 /* LaunchScreenVC.m */; };
+		46C96D7824531E0E009F0742 /* LibraryTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 46C96D7724531E0E009F0742 /* LibraryTableCell.m */; };
+		C1C23708C6D4C5AAB35AF969 /* Pods_GeniusJamTracks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD741A1CF2BA5182AD5265F2 /* Pods_GeniusJamTracks.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		462D1BB02452E09A004CB3D1 /* AppTabbarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppTabbarController.h; sourceTree = "<group>"; };
+		462D1BB12452E09A004CB3D1 /* AppTabbarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppTabbarController.m; sourceTree = "<group>"; };
+		462D1BB42452F3E2004CB3D1 /* LibraryVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LibraryVC.h; sourceTree = "<group>"; };
+		462D1BB52452F3E2004CB3D1 /* LibraryVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LibraryVC.m; sourceTree = "<group>"; };
+		462D1BB72452F416004CB3D1 /* HowToVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HowToVC.h; sourceTree = "<group>"; };
+		462D1BB82452F416004CB3D1 /* HowToVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HowToVC.m; sourceTree = "<group>"; };
+		462D1BBA2452F438004CB3D1 /* ForumsVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ForumsVC.h; sourceTree = "<group>"; };
+		462D1BBB2452F438004CB3D1 /* ForumsVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ForumsVC.m; sourceTree = "<group>"; };
+		462D1BBD2452F7AA004CB3D1 /* SettingsVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingsVC.h; sourceTree = "<group>"; };
+		462D1BBE2452F7AA004CB3D1 /* SettingsVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingsVC.m; sourceTree = "<group>"; };
+		463DB6D92475A40B00C80BC5 /* AutoRotate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AutoRotate.h; sourceTree = "<group>"; };
+		463DB6DA2475A40B00C80BC5 /* AutoRotate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoRotate.m; sourceTree = "<group>"; };
+		464BEAF62469C58400380D41 /* CreateSongVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CreateSongVC.h; sourceTree = "<group>"; };
+		464BEAF72469C58400380D41 /* CreateSongVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CreateSongVC.m; sourceTree = "<group>"; };
+		464D72B9246BDAA900E34F64 /* CraeteSongTableCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CraeteSongTableCell.h; sourceTree = "<group>"; };
+		464D72BA246BDAA900E34F64 /* CraeteSongTableCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CraeteSongTableCell.m; sourceTree = "<group>"; };
+		4650FE172464446C00CC301E /* MySongs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MySongs.json; sourceTree = "<group>"; };
+		4650FE182464446C00CC301E /* Library.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Library.json; sourceTree = "<group>"; };
+		4652D25B24BF1AA4005B1E04 /* SyncScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SyncScrollView.h; sourceTree = "<group>"; };
+		4652D25C24BF1AA4005B1E04 /* SyncScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SyncScrollView.m; sourceTree = "<group>"; };
+		4657F8542458822100DAF76B /* TitleHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TitleHeaderView.h; sourceTree = "<group>"; };
+		4657F8552458822100DAF76B /* TitleHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TitleHeaderView.m; sourceTree = "<group>"; };
+		4657F8572458823600DAF76B /* TitleHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TitleHeaderView.xib; sourceTree = "<group>"; };
+		465C69552472A5EE007F5915 /* CustomVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomVC.h; sourceTree = "<group>"; };
+		465C69562472A5EE007F5915 /* CustomVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomVC.m; sourceTree = "<group>"; };
+		465D37A6246E5DDD00BAFD31 /* Constant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
+		465D37A7246E5DDD00BAFD31 /* Constant.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Constant.m; sourceTree = "<group>"; };
+		465D37AA246ECDEE00BAFD31 /* YIInnerShadowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YIInnerShadowView.m; sourceTree = "<group>"; };
+		465D37AB246ECDEE00BAFD31 /* YIInnerShadowLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YIInnerShadowLayer.h; sourceTree = "<group>"; };
+		465D37AC246ECDEE00BAFD31 /* YIInnerShadowLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YIInnerShadowLayer.m; sourceTree = "<group>"; };
+		465D37AD246ECDEE00BAFD31 /* YIInnerShadowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YIInnerShadowView.h; sourceTree = "<group>"; };
+		4660C46E2490D1EC00847AD9 /* FontUpdateBlockWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FontUpdateBlockWrapper.h; sourceTree = "<group>"; };
+		4660C46F2490D1EC00847AD9 /* AMXFontAutoScale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMXFontAutoScale.h; sourceTree = "<group>"; };
+		4660C4702490D1EC00847AD9 /* UIFont+AMXFontScale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+AMXFontScale.h"; sourceTree = "<group>"; };
+		4660C4712490D1EC00847AD9 /* UITextView+AMXFontScale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+AMXFontScale.m"; sourceTree = "<group>"; };
+		4660C4722490D1EC00847AD9 /* NSObject+AMXFontScale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+AMXFontScale.m"; sourceTree = "<group>"; };
+		4660C4732490D1EC00847AD9 /* UILabel+AMXFontScale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+AMXFontScale.m"; sourceTree = "<group>"; };
+		4660C4742490D1EC00847AD9 /* AMXFontAutoScalable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMXFontAutoScalable.h; sourceTree = "<group>"; };
+		4660C4752490D1EC00847AD9 /* FontUpdateBlockWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FontUpdateBlockWrapper.m; sourceTree = "<group>"; };
+		4660C4762490D1EC00847AD9 /* NSObject+AMXFontScale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+AMXFontScale.h"; sourceTree = "<group>"; };
+		4660C4772490D1EC00847AD9 /* UITextView+AMXFontScale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+AMXFontScale.h"; sourceTree = "<group>"; };
+		4660C4782490D1EC00847AD9 /* UIFont+AMXFontScale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+AMXFontScale.m"; sourceTree = "<group>"; };
+		4660C4792490D1EC00847AD9 /* UILabel+AMXFontScale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+AMXFontScale.h"; sourceTree = "<group>"; };
+		4660FF2E248FAF7C009946FF /* Antonis.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Antonis.otf; sourceTree = "<group>"; };
+		4665FF6724505FDC00EF054E /* GeniusJamTracks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeniusJamTracks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4665FF6A24505FDC00EF054E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4665FF6B24505FDC00EF054E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4665FF7424505FDC00EF054E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4665FF7624505FE100EF054E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4665FF7924505FE100EF054E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4665FF7B24505FE100EF054E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4665FF7C24505FE100EF054E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		466954142477B5D5005503F1 /* ChordCollectionCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChordCollectionCell.h; sourceTree = "<group>"; };
+		466954152477B5D5005503F1 /* ChordCollectionCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChordCollectionCell.m; sourceTree = "<group>"; };
+		466CE7CB245984C0004554F4 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		467DF5DA2459BBF3004570B1 /* SettingsTableCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingsTableCell.h; sourceTree = "<group>"; };
+		467DF5DB2459BBF3004570B1 /* SettingsTableCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingsTableCell.m; sourceTree = "<group>"; };
+		46939312246C6DB400DBE191 /* SongChordsVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SongChordsVC.h; sourceTree = "<group>"; };
+		46939313246C6DB400DBE191 /* SongChordsVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SongChordsVC.m; sourceTree = "<group>"; };
+		469886722461A28600B691A7 /* InstrumentTransposeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InstrumentTransposeVC.h; sourceTree = "<group>"; };
+		469886732461A28600B691A7 /* InstrumentTransposeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InstrumentTransposeVC.m; sourceTree = "<group>"; };
+		46BF142A245177B3004F0865 /* GJTPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GJTPrefixHeader.pch; sourceTree = "<group>"; };
+		46BF142B2451B9BF004F0865 /* LaunchScreenVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LaunchScreenVC.h; sourceTree = "<group>"; };
+		46BF142C2451B9BF004F0865 /* LaunchScreenVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LaunchScreenVC.m; sourceTree = "<group>"; };
+		46C96D7624531E0E009F0742 /* LibraryTableCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LibraryTableCell.h; sourceTree = "<group>"; };
+		46C96D7724531E0E009F0742 /* LibraryTableCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LibraryTableCell.m; sourceTree = "<group>"; };
+		947350D23BBE6EE4BB281849 /* Pods-GeniusJamTracks.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeniusJamTracks.debug.xcconfig"; path = "Target Support Files/Pods-GeniusJamTracks/Pods-GeniusJamTracks.debug.xcconfig"; sourceTree = "<group>"; };
+		EB4599FAD01FD0EF6EEB2499 /* Pods-GeniusJamTracks.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeniusJamTracks.release.xcconfig"; path = "Target Support Files/Pods-GeniusJamTracks/Pods-GeniusJamTracks.release.xcconfig"; sourceTree = "<group>"; };
+		FD741A1CF2BA5182AD5265F2 /* Pods_GeniusJamTracks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GeniusJamTracks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4665FF6424505FDC00EF054E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				466CE7CC245984C0004554F4 /* WebKit.framework in Frameworks */,
+				C1C23708C6D4C5AAB35AF969 /* Pods_GeniusJamTracks.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46279565245841BD00B76A40 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				4660FF2E248FAF7C009946FF /* Antonis.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		462D1BB32452E9B1004CB3D1 /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				462D1BB02452E09A004CB3D1 /* AppTabbarController.h */,
+				462D1BB12452E09A004CB3D1 /* AppTabbarController.m */,
+				462D1BB42452F3E2004CB3D1 /* LibraryVC.h */,
+				462D1BB52452F3E2004CB3D1 /* LibraryVC.m */,
+				462D1BB72452F416004CB3D1 /* HowToVC.h */,
+				462D1BB82452F416004CB3D1 /* HowToVC.m */,
+				462D1BBA2452F438004CB3D1 /* ForumsVC.h */,
+				462D1BBB2452F438004CB3D1 /* ForumsVC.m */,
+				462D1BBD2452F7AA004CB3D1 /* SettingsVC.h */,
+				462D1BBE2452F7AA004CB3D1 /* SettingsVC.m */,
+			);
+			path = Tabs;
+			sourceTree = "<group>";
+		};
+		464D72BC246BFF4900E34F64 /* SongSettings */ = {
+			isa = PBXGroup;
+			children = (
+				464BEAF62469C58400380D41 /* CreateSongVC.h */,
+				464BEAF72469C58400380D41 /* CreateSongVC.m */,
+				46939312246C6DB400DBE191 /* SongChordsVC.h */,
+				46939313246C6DB400DBE191 /* SongChordsVC.m */,
+				465C69552472A5EE007F5915 /* CustomVC.h */,
+				465C69562472A5EE007F5915 /* CustomVC.m */,
+			);
+			path = SongSettings;
+			sourceTree = "<group>";
+		};
+		465D37A9246ECDEE00BAFD31 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				465D37AD246ECDEE00BAFD31 /* YIInnerShadowView.h */,
+				465D37AA246ECDEE00BAFD31 /* YIInnerShadowView.m */,
+				465D37AB246ECDEE00BAFD31 /* YIInnerShadowLayer.h */,
+				465D37AC246ECDEE00BAFD31 /* YIInnerShadowLayer.m */,
+				4652D25B24BF1AA4005B1E04 /* SyncScrollView.h */,
+				4652D25C24BF1AA4005B1E04 /* SyncScrollView.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		4660C46D2490D1EC00847AD9 /* AMXFontAutoScale */ = {
+			isa = PBXGroup;
+			children = (
+				4660C46E2490D1EC00847AD9 /* FontUpdateBlockWrapper.h */,
+				4660C46F2490D1EC00847AD9 /* AMXFontAutoScale.h */,
+				4660C4702490D1EC00847AD9 /* UIFont+AMXFontScale.h */,
+				4660C4712490D1EC00847AD9 /* UITextView+AMXFontScale.m */,
+				4660C4722490D1EC00847AD9 /* NSObject+AMXFontScale.m */,
+				4660C4732490D1EC00847AD9 /* UILabel+AMXFontScale.m */,
+				4660C4742490D1EC00847AD9 /* AMXFontAutoScalable.h */,
+				4660C4752490D1EC00847AD9 /* FontUpdateBlockWrapper.m */,
+				4660C4762490D1EC00847AD9 /* NSObject+AMXFontScale.h */,
+				4660C4772490D1EC00847AD9 /* UITextView+AMXFontScale.h */,
+				4660C4782490D1EC00847AD9 /* UIFont+AMXFontScale.m */,
+				4660C4792490D1EC00847AD9 /* UILabel+AMXFontScale.h */,
+			);
+			path = AMXFontAutoScale;
+			sourceTree = "<group>";
+		};
+		4665FF5E24505FDC00EF054E = {
+			isa = PBXGroup;
+			children = (
+				4665FF6924505FDC00EF054E /* GeniusJamTracks */,
+				4665FF6824505FDC00EF054E /* Products */,
+				A00663A9D56F9FA1F9C44E53 /* Pods */,
+				CCF027C3A8D284BFC42DC624 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4665FF6824505FDC00EF054E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4665FF6724505FDC00EF054E /* GeniusJamTracks.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4665FF6924505FDC00EF054E /* GeniusJamTracks */ = {
+			isa = PBXGroup;
+			children = (
+				46BF1428245176A6004F0865 /* Helper */,
+				4665FF8824507E5400EF054E /* Source */,
+				4665FF8724507E3900EF054E /* SupportFiles */,
+				4665FF8624507DFA00EF054E /* Storyboard */,
+				4665FF85245072AC00EF054E /* AppDelegate */,
+			);
+			path = GeniusJamTracks;
+			sourceTree = "<group>";
+		};
+		4665FF85245072AC00EF054E /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				4665FF7C24505FE100EF054E /* main.m */,
+				4665FF6A24505FDC00EF054E /* AppDelegate.h */,
+				4665FF6B24505FDC00EF054E /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		4665FF8624507DFA00EF054E /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				4665FF7324505FDC00EF054E /* Main.storyboard */,
+				4665FF7824505FE100EF054E /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		4665FF8724507E3900EF054E /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				4650FE182464446C00CC301E /* Library.json */,
+				4650FE172464446C00CC301E /* MySongs.json */,
+				46279565245841BD00B76A40 /* Fonts */,
+				4665FF7624505FE100EF054E /* Assets.xcassets */,
+				4665FF7B24505FE100EF054E /* Info.plist */,
+			);
+			path = SupportFiles;
+			sourceTree = "<group>";
+		};
+		4665FF8824507E5400EF054E /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				464D72BC246BFF4900E34F64 /* SongSettings */,
+				46C96D7524531DEA009F0742 /* Cells */,
+				462D1BB32452E9B1004CB3D1 /* Tabs */,
+				46BF142B2451B9BF004F0865 /* LaunchScreenVC.h */,
+				46BF142C2451B9BF004F0865 /* LaunchScreenVC.m */,
+				469886722461A28600B691A7 /* InstrumentTransposeVC.h */,
+				469886732461A28600B691A7 /* InstrumentTransposeVC.m */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		46BF1428245176A6004F0865 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				4660C46D2490D1EC00847AD9 /* AMXFontAutoScale */,
+				465D37A9246ECDEE00BAFD31 /* Classes */,
+				46BF142A245177B3004F0865 /* GJTPrefixHeader.pch */,
+				465D37A6246E5DDD00BAFD31 /* Constant.h */,
+				465D37A7246E5DDD00BAFD31 /* Constant.m */,
+				463DB6D92475A40B00C80BC5 /* AutoRotate.h */,
+				463DB6DA2475A40B00C80BC5 /* AutoRotate.m */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		46C96D7524531DEA009F0742 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				46C96D7624531E0E009F0742 /* LibraryTableCell.h */,
+				46C96D7724531E0E009F0742 /* LibraryTableCell.m */,
+				4657F8542458822100DAF76B /* TitleHeaderView.h */,
+				4657F8552458822100DAF76B /* TitleHeaderView.m */,
+				4657F8572458823600DAF76B /* TitleHeaderView.xib */,
+				467DF5DA2459BBF3004570B1 /* SettingsTableCell.h */,
+				467DF5DB2459BBF3004570B1 /* SettingsTableCell.m */,
+				464D72B9246BDAA900E34F64 /* CraeteSongTableCell.h */,
+				464D72BA246BDAA900E34F64 /* CraeteSongTableCell.m */,
+				466954142477B5D5005503F1 /* ChordCollectionCell.h */,
+				466954152477B5D5005503F1 /* ChordCollectionCell.m */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		A00663A9D56F9FA1F9C44E53 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				947350D23BBE6EE4BB281849 /* Pods-GeniusJamTracks.debug.xcconfig */,
+				EB4599FAD01FD0EF6EEB2499 /* Pods-GeniusJamTracks.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CCF027C3A8D284BFC42DC624 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				466CE7CB245984C0004554F4 /* WebKit.framework */,
+				FD741A1CF2BA5182AD5265F2 /* Pods_GeniusJamTracks.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4665FF6624505FDC00EF054E /* GeniusJamTracks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4665FF8024505FE100EF054E /* Build configuration list for PBXNativeTarget "GeniusJamTracks" */;
+			buildPhases = (
+				2D92D1D6B498EB8AEA6A9BE5 /* [CP] Check Pods Manifest.lock */,
+				4665FF6324505FDC00EF054E /* Sources */,
+				4665FF6424505FDC00EF054E /* Frameworks */,
+				4665FF6524505FDC00EF054E /* Resources */,
+				5A3A1330ADBE7FBC56EFC314 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GeniusJamTracks;
+			productName = GeniusJamTracks;
+			productReference = 4665FF6724505FDC00EF054E /* GeniusJamTracks.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4665FF5F24505FDC00EF054E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "JB Solutions";
+				TargetAttributes = {
+					4665FF6624505FDC00EF054E = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 4665FF6224505FDC00EF054E /* Build configuration list for PBXProject "GeniusJamTracks" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4665FF5E24505FDC00EF054E;
+			productRefGroup = 4665FF6824505FDC00EF054E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4665FF6624505FDC00EF054E /* GeniusJamTracks */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4665FF6524505FDC00EF054E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4650FE1A2464446C00CC301E /* Library.json in Resources */,
+				4665FF7A24505FE100EF054E /* LaunchScreen.storyboard in Resources */,
+				4657F8582458823600DAF76B /* TitleHeaderView.xib in Resources */,
+				4665FF7724505FE100EF054E /* Assets.xcassets in Resources */,
+				4650FE192464446C00CC301E /* MySongs.json in Resources */,
+				4665FF7524505FDC00EF054E /* Main.storyboard in Resources */,
+				4660FF2F248FAF7C009946FF /* Antonis.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2D92D1D6B498EB8AEA6A9BE5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GeniusJamTracks-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A3A1330ADBE7FBC56EFC314 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GeniusJamTracks/Pods-GeniusJamTracks-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GeniusJamTracks/Pods-GeniusJamTracks-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GeniusJamTracks/Pods-GeniusJamTracks-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4665FF6324505FDC00EF054E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				465D37AF246ECDEE00BAFD31 /* YIInnerShadowView.m in Sources */,
+				46C96D7824531E0E009F0742 /* LibraryTableCell.m in Sources */,
+				4665FF6C24505FDC00EF054E /* AppDelegate.m in Sources */,
+				4660C47F2490D1EC00847AD9 /* UIFont+AMXFontScale.m in Sources */,
+				462D1BBC2452F438004CB3D1 /* ForumsVC.m in Sources */,
+				466954162477B5D5005503F1 /* ChordCollectionCell.m in Sources */,
+				4665FF7D24505FE100EF054E /* main.m in Sources */,
+				4660C47B2490D1EC00847AD9 /* UITextView+AMXFontScale.m in Sources */,
+				46BF142D2451B9BF004F0865 /* LaunchScreenVC.m in Sources */,
+				4657F8562458822100DAF76B /* TitleHeaderView.m in Sources */,
+				465D37A8246E5DDD00BAFD31 /* Constant.m in Sources */,
+				462D1BBF2452F7AA004CB3D1 /* SettingsVC.m in Sources */,
+				462D1BB62452F3E2004CB3D1 /* LibraryVC.m in Sources */,
+				464D72BB246BDAA900E34F64 /* CraeteSongTableCell.m in Sources */,
+				463DB6DB2475A40B00C80BC5 /* AutoRotate.m in Sources */,
+				46939314246C6DB400DBE191 /* SongChordsVC.m in Sources */,
+				4660C47E2490D1EC00847AD9 /* FontUpdateBlockWrapper.m in Sources */,
+				462D1BB92452F416004CB3D1 /* HowToVC.m in Sources */,
+				462D1BB22452E09A004CB3D1 /* AppTabbarController.m in Sources */,
+				464BEAF82469C58400380D41 /* CreateSongVC.m in Sources */,
+				467DF5DC2459BBF3004570B1 /* SettingsTableCell.m in Sources */,
+				465D37B0246ECDEE00BAFD31 /* YIInnerShadowLayer.m in Sources */,
+				469886742461A28600B691A7 /* InstrumentTransposeVC.m in Sources */,
+				4660C47C2490D1EC00847AD9 /* NSObject+AMXFontScale.m in Sources */,
+				465C69572472A5EE007F5915 /* CustomVC.m in Sources */,
+				4652D25D24BF1AA4005B1E04 /* SyncScrollView.m in Sources */,
+				4660C47D2490D1EC00847AD9 /* UILabel+AMXFontScale.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4665FF7324505FDC00EF054E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4665FF7424505FDC00EF054E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4665FF7824505FE100EF054E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4665FF7924505FE100EF054E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4665FF7E24505FE100EF054E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4665FF7F24505FE100EF054E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4665FF8124505FE100EF054E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 947350D23BBE6EE4BB281849 /* Pods-GeniusJamTracks.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 19;
+				DEVELOPMENT_TEAM = RUTY32AQQY;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/vinodmaheshwari/Documents/WorkFromHome/Antonis Tsikandilakis/GeniusJamTracks/Application/GeniusJamTracks/GeniusJamTracks/Helper/GJTPrefixHeader.pch";
+				INFOPLIST_FILE = "/Users/vinodmaheshwari/Documents/WorkFromHome/Antonis Tsikandilakis/GeniusJamTracks/Application/GeniusJamTracks/GeniusJamTracks/SupportFiles/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.GeniusJamTracks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = GJT2_dev_27Apr;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4665FF8224505FE100EF054E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB4599FAD01FD0EF6EEB2499 /* Pods-GeniusJamTracks.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 19;
+				DEVELOPMENT_TEAM = RUTY32AQQY;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/vinodmaheshwari/Documents/WorkFromHome/Antonis Tsikandilakis/GeniusJamTracks/Application/GeniusJamTracks/GeniusJamTracks/Helper/GJTPrefixHeader.pch";
+				INFOPLIST_FILE = "/Users/vinodmaheshwari/Documents/WorkFromHome/Antonis Tsikandilakis/GeniusJamTracks/Application/GeniusJamTracks/GeniusJamTracks/SupportFiles/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.GeniusJamTracks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = GJT2_dist_27Apr;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4665FF6224505FDC00EF054E /* Build configuration list for PBXProject "GeniusJamTracks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4665FF7E24505FE100EF054E /* Debug */,
+				4665FF7F24505FE100EF054E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4665FF8024505FE100EF054E /* Build configuration list for PBXNativeTarget "GeniusJamTracks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4665FF8124505FE100EF054E /* Debug */,
+				4665FF8224505FE100EF054E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4665FF5F24505FDC00EF054E /* Project object */;
+}
