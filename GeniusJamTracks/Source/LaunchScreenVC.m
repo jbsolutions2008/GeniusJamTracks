@@ -28,6 +28,7 @@
     [super viewDidAppear:YES];
     sleep(5);
     
+  
     UIStoryboard* storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
     UIViewController* controller = [storyboard instantiateViewControllerWithIdentifier:@"AppTabbarController"];
     [self.navigationController pushViewController:controller animated:YES];
