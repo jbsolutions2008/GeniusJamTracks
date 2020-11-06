@@ -806,16 +806,63 @@ NSInteger selectedIndex;
 
 #pragma mark - UICollectionView Methods
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
-    if (arrChords.count%4 != 0) {
-        return [arrChords count]+1;
+    
+    long chrodCount = arrChords.count + (arrChords.count/5) + (arrChords.count%5);
+    NSLog(@"chrodCount----------%lu--------",(unsigned long)arrChords.count);
+    if (chrodCount % 5 != 0) {
+        NSLog(@"chrodCountchrodCount----------%ld--------",chrodCount);
+        if (chrodCount % 5 == 1) {
+            return chrodCount+2;
+        }
+        return chrodCount+1;
     }
-    return [arrChords count];
+    NSLog(@"chrodCountchrodCount----------%ld--------",chrodCount);
+    return chrodCount+1;
 }
 
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
+    ChordCollectionCell  *cellSide = [collectionView dequeueReusableCellWithReuseIdentifier:@"cellSide" forIndexPath:indexPath];
+    if (indexPath.row % 5 == 0) {//vd
+        //NSLog(@"indexPath.row %ld----indexPath.item %ld",(long)indexPath.row, (long)indexPath.item);
+
+        [cellSide.lblSequence setHidden:NO];
+        //[cellSide.lblExtended01 setHidden:NO];
+       // cellSide.backgroundColor = UIColor.redColor;
+        
+        return cellSide;
+    }
+//    else {
+//        [cellSide.lblExtended01 setHidden:YES];
+//        [cellSide.lblSequence setHidden:YES];
+//    }
     ChordCollectionCell  *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"cell" forIndexPath:indexPath];
+   
+    long newIndexPathRow = indexPath.row - (indexPath.row/5);
+    if (indexPath.row % 5 == 1) {//vd
+        [cell.lblExtended01 setHidden:NO];
+    }else {
+        [cell.lblExtended01 setHidden:YES];
+    }
     
-    if (indexPath.row == arrChords.count && arrChords.count%4 != 0) {
+    //vd
+    long chrodCount = arrChords.count + (arrChords.count/5) + (arrChords.count%5);
+    if (chrodCount % 5 != 0) {
+        if (chrodCount % 5 == 1) {
+            chrodCount = chrodCount+2;
+        }else {
+            chrodCount = chrodCount+1;
+        }
+       
+    }else {
+        chrodCount = chrodCount+1;
+    }
+    //vd
+    //NSLog(@"chrodCountchrodCount----------%ld--------",chrodCount);
+    
+    
+    
+    if (indexPath.row == chrodCount && chrodCount % 5 != 0) {
+       
         [cell.vwChord1 setHidden:YES];
         [cell.vwChord2 setHidden:YES];
         [cell.vwChord3 setHidden:YES];
@@ -824,12 +871,14 @@ NSInteger selectedIndex;
         [cell.vwChord02 setHidden:YES];
         [cell.lblLastChordLine setHidden:YES];
     } else {
-        if ((indexPath.row+1)%4 == 0) {
+        if (indexPath.row % 5 == 4) {
             [cell.lblLastChordLine setHidden:NO];
         } else {
             [cell.lblLastChordLine setHidden:YES];
+            
         }
-        NSArray* arr = [arrChords[indexPath.row] componentsSeparatedByString:@"chord"];
+       
+        NSArray* arr = [arrChords[newIndexPathRow-1] componentsSeparatedByString:@"chord"];
         
         
         if (arr.count-1 == 1) {
@@ -906,16 +955,22 @@ NSInteger selectedIndex;
     
     CGFloat height = 0.0;
     if ( IDIOM == IPAD ) {
-        height = collectionView.frame.size.height/12.5;
+        height = collectionView.bounds.size.height/12.5;
     } else {
-        height = 41;
+        height = 70;//41;
     }
-    return CGSizeMake((self.view.frame.size.width/4)-1, height);
+    
+    if (indexPath.row%5 == 0) {//vd
+        return CGSizeMake(10, height);
+    }
+    float itemWidth = (self.view.bounds.size.width- 10) / 4 ;
+    //printf("self.view.bounds.size.width %f---self.view.frame.size.width %f",self.view.bounds.size.width, self.view.frame.size.width);
+    return CGSizeMake(itemWidth, height);
 }
 
 - (UIEdgeInsets)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout insetForSectionAtIndex:(NSInteger)section{
     
-    return UIEdgeInsetsMake(10, 2, 10, 2);
+    return UIEdgeInsetsMake(0, 0, 0, 0);//(10, 2, 10, 2);
 }
 - (CGFloat)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout minimumInteritemSpacingForSectionAtIndex:(NSInteger)section
 {
@@ -924,6 +979,23 @@ NSInteger selectedIndex;
 
 
 
-
+//func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+//        let totalSpacing = (2 * sectionInsets.left) + ((numberOfItemsPerRow - 1) * spacingBetweenCells) //Amount of total spacing in a row
+//
+//        if let collection = self.collectionView{
+//            let width = (collection.bounds.width - totalSpacing)/numberOfItemsPerRow
+//            return CGSize(width: width, height: width)
+//        } else {
+//            return CGSize(width: 0, height: 0)
+//        }
+//    }
+//
+//    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAt section: Int) -> UIEdgeInsets {
+//        return sectionInsets
+//    }
+//
+//    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
+//        return spacingBetweenCells
+//    }
 
 @end

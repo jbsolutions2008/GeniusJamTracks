@@ -38,6 +38,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong) IBOutlet UIView *vwChord3;
 @property (nonatomic, strong) IBOutlet UIView *vwChord4;
 
+@property (nonatomic, strong) IBOutlet UILabel *lblSequence;
+
 @property (nonatomic, strong) IBOutlet UILabel *lblRoot1;
 @property (nonatomic, strong) IBOutlet UILabel *lblRoot2;
 @property (nonatomic, strong) IBOutlet UILabel *lblRoot3;

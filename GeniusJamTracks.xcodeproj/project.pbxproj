@@ -42,6 +42,9 @@
 		469886742461A28600B691A7 /* InstrumentTransposeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 469886732461A28600B691A7 /* InstrumentTransposeVC.m */; };
 		46BF142D2451B9BF004F0865 /* LaunchScreenVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 46BF142C2451B9BF004F0865 /* LaunchScreenVC.m */; };
 		46C96D7824531E0E009F0742 /* LibraryTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 46C96D7724531E0E009F0742 /* LibraryTableCell.m */; };
+		B3C488CE254D8C180051A7C4 /* Rootslashbarsrepeats-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = B3C488CD254D8C180051A7C4 /* Rootslashbarsrepeats-Regular.otf */; };
+		B3C488D2254D8D830051A7C4 /* Chord_types-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = B3C488D0254D8D830051A7C4 /* Chord_types-Regular.otf */; };
+		B3C488D3254D8D830051A7C4 /* Time_sigs-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = B3C488D1254D8D830051A7C4 /* Time_sigs-Regular.otf */; };
 		C1C23708C6D4C5AAB35AF969 /* Pods_GeniusJamTracks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD741A1CF2BA5182AD5265F2 /* Pods_GeniusJamTracks.framework */; };
 /* End PBXBuildFile section */
 
@@ -113,6 +116,9 @@
 		46C96D7624531E0E009F0742 /* LibraryTableCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LibraryTableCell.h; sourceTree = "<group>"; };
 		46C96D7724531E0E009F0742 /* LibraryTableCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LibraryTableCell.m; sourceTree = "<group>"; };
 		947350D23BBE6EE4BB281849 /* Pods-GeniusJamTracks.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeniusJamTracks.debug.xcconfig"; path = "Target Support Files/Pods-GeniusJamTracks/Pods-GeniusJamTracks.debug.xcconfig"; sourceTree = "<group>"; };
+		B3C488CD254D8C180051A7C4 /* Rootslashbarsrepeats-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rootslashbarsrepeats-Regular.otf"; sourceTree = "<group>"; };
+		B3C488D0254D8D830051A7C4 /* Chord_types-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Chord_types-Regular.otf"; sourceTree = "<group>"; };
+		B3C488D1254D8D830051A7C4 /* Time_sigs-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Time_sigs-Regular.otf"; sourceTree = "<group>"; };
 		EB4599FAD01FD0EF6EEB2499 /* Pods-GeniusJamTracks.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeniusJamTracks.release.xcconfig"; path = "Target Support Files/Pods-GeniusJamTracks/Pods-GeniusJamTracks.release.xcconfig"; sourceTree = "<group>"; };
 		FD741A1CF2BA5182AD5265F2 /* Pods_GeniusJamTracks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GeniusJamTracks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -133,6 +139,9 @@
 		46279565245841BD00B76A40 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
+				B3C488D0254D8D830051A7C4 /* Chord_types-Regular.otf */,
+				B3C488D1254D8D830051A7C4 /* Time_sigs-Regular.otf */,
+				B3C488CD254D8C180051A7C4 /* Rootslashbarsrepeats-Regular.otf */,
 				4660FF2E248FAF7C009946FF /* Antonis.otf */,
 			);
 			path = Fonts;
@@ -386,10 +395,13 @@
 			files = (
 				4650FE1A2464446C00CC301E /* Library.json in Resources */,
 				4665FF7A24505FE100EF054E /* LaunchScreen.storyboard in Resources */,
+				B3C488CE254D8C180051A7C4 /* Rootslashbarsrepeats-Regular.otf in Resources */,
 				4657F8582458823600DAF76B /* TitleHeaderView.xib in Resources */,
 				4665FF7724505FE100EF054E /* Assets.xcassets in Resources */,
+				B3C488D3254D8D830051A7C4 /* Time_sigs-Regular.otf in Resources */,
 				4650FE192464446C00CC301E /* MySongs.json in Resources */,
 				4665FF7524505FDC00EF054E /* Main.storyboard in Resources */,
+				B3C488D2254D8D830051A7C4 /* Chord_types-Regular.otf in Resources */,
 				4660FF2F248FAF7C009946FF /* Antonis.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -613,18 +625,18 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 19;
-				DEVELOPMENT_TEAM = RUTY32AQQY;
+				DEVELOPMENT_TEAM = YDUDX23Y8U;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "/Users/vinodmaheshwari/Documents/WorkFromHome/Antonis Tsikandilakis/GeniusJamTracks/Application/GeniusJamTracks/GeniusJamTracks/Helper/GJTPrefixHeader.pch";
-				INFOPLIST_FILE = "/Users/vinodmaheshwari/Documents/WorkFromHome/Antonis Tsikandilakis/GeniusJamTracks/Application/GeniusJamTracks/GeniusJamTracks/SupportFiles/Info.plist";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/GeniusJamTracks/Helper/GJTPrefixHeader.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/GeniusJamTracks/SupportFiles/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.GeniusJamTracks;
+				PRODUCT_BUNDLE_IDENTIFIER = in.jbsolutions.GeniusJamTracks;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = GJT2_dev_27Apr;
+				PROVISIONING_PROFILE_SPECIFIER = JbsolutionsDev;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -634,21 +646,21 @@
 			baseConfigurationReference = EB4599FAD01FD0EF6EEB2499 /* Pods-GeniusJamTracks.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 19;
-				DEVELOPMENT_TEAM = RUTY32AQQY;
+				DEVELOPMENT_TEAM = YDUDX23Y8U;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "/Users/vinodmaheshwari/Documents/WorkFromHome/Antonis Tsikandilakis/GeniusJamTracks/Application/GeniusJamTracks/GeniusJamTracks/Helper/GJTPrefixHeader.pch";
-				INFOPLIST_FILE = "/Users/vinodmaheshwari/Documents/WorkFromHome/Antonis Tsikandilakis/GeniusJamTracks/Application/GeniusJamTracks/GeniusJamTracks/SupportFiles/Info.plist";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/GeniusJamTracks/Helper/GJTPrefixHeader.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/GeniusJamTracks/SupportFiles/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.GeniusJamTracks;
+				PRODUCT_BUNDLE_IDENTIFIER = in.jbsolutions.GeniusJamTracks;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = GJT2_dist_27Apr;
+				PROVISIONING_PROFILE_SPECIFIER = JbsolutionsDev;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

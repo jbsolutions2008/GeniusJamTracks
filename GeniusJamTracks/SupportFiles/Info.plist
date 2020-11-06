@@ -30,6 +30,9 @@
 	<key>UIAppFonts</key>
 	<array>
 		<string>Antonis.otf</string>
+		<string>Rootslashbarsrepeats-Regular.otf</string>
+		<string>Chord_types-Regular.otf</string>
+		<string>Time_sigs-Regular.otf</string>
 	</array>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
